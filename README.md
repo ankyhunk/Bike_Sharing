@@ -1,4 +1,4 @@
-# Bike Sharing Assignment
+# Bike Sharing
 >  A US bike-sharing provider BoomBikes has recently suffered considerable dips in their revenues due to the ongoing Corona pandemic. The company is finding it very difficult to sustain in the current market scenario. So, it has decided to come up with a mindful business plan to be able to accelerate its revenue as soon as the ongoing lockdown comes to an end, and the economy restores to a healthy state. 
 To model the demand for shared bikes with the available independent variables is required. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market. 
 
@@ -8,7 +8,6 @@ To model the demand for shared bikes with the available independent variables is
 * [How to Run](#how-to-run)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
@@ -35,10 +34,10 @@ To model the demand for shared bikes with the available independent variables is
    ```bash
    pip install numpy pandas matplotlib seaborn scikit-learn statsmodels
    ```
-2. Get the data: day.csv (daily bike demand data provided with the upGrad assignment; place it next to the notebook).
+2. Get the data: day.csv (daily bike demand data; place it next to the notebook).
 3. Open and run the notebook:
    ```bash
-   jupyter notebook "Bike Sharing Assignment.ipynb"
+   jupyter notebook "Bike Sharing.ipynb"
    ```
 
 ## Technologies Used
@@ -50,10 +49,6 @@ To model the demand for shared bikes with the available independent variables is
 - Statsmodels
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-- This project was based on [Bike-Sharing Assignment](https://learn.upgrad.com/course/5797/segment/48191/284656/866122/4332138).
-
 
 ## Contact
 Created by [@Ankur A Gupta] - feel free to contact me!
