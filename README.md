@@ -21,9 +21,9 @@ To model the demand for shared bikes with the available independent variables is
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- The model was built using numerical and categorical variables with and R2 Score of 78%.
+- The model was built using numerical and categorical variables with an R2 Score of 78%.
 - The numerical variables used in the model are temp and windspeed.
-- The categorical variables used in the model are yr,holiday,Spring and Light Rain
+- The categorical variables used in the model are yr,holiday,Spring and Light Rain.
 - Thus, the daily demand for bikes depends on whether it is a Holiday, the Season and the Weather. 
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
@@ -49,10 +49,6 @@ To model the demand for shared bikes with the available independent variables is
 - Statsmodels
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Contact
-Created by [@Ankur A Gupta] - feel free to contact me!
-
 
 <!-- Optional -->
 <!-- ## License -->
