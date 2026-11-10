@@ -5,6 +5,7 @@ To model the demand for shared bikes with the available independent variables is
 
 ## Table of Contents
 * [General Info](#general-information)
+* [How to Run](#how-to-run)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
@@ -12,16 +13,12 @@ To model the demand for shared bikes with the available independent variables is
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-    A US bike-sharing provider BoomBikes has recently suffered considerable dips in their revenues due to the ongoing Corona pandemic. The company is finding it very difficult to sustain in the current market scenario. So, it has decided to come up with a mindful business plan to be able to accelerate its revenue as soon as the ongoing lockdown comes to an end, and the economy restores to a healthy state. 
-- What is the background of your project?
-    They have contracted a consulting company to understand the factors on which the demand for these shared bikes depends. Specifically, they want to understand the factors affecting the demand for these shared bikes in the American market. The company wants to know:
-    1) Which variables are significant in predicting the demand for shared bikes.
-    2) How well those variables describe the bike demands
-- What is the business probem that your project is trying to solve?
-    The project models the demand for shared bikes with the available independent variables to be used by the management to understand how exactly the demands vary with different features.
-- What is the dataset that is being used?
-    Based on various meteorological surveys and people's styles, the service provider firm has gathered a large dataset on daily bike demands across the American market based on some factors. 
+- A US bike-sharing provider BoomBikes has recently suffered considerable dips in their revenues due to the ongoing Corona pandemic. The company is finding it very difficult to sustain in the current market scenario. So, it has decided to come up with a mindful business plan to be able to accelerate its revenue as soon as the ongoing lockdown comes to an end, and the economy restores to a healthy state. 
+- They have contracted a consulting company to understand the factors on which the demand for these shared bikes depends. Specifically, they want to understand the factors affecting the demand for these shared bikes in the American market. The company wants to know:
+   1. Which variables are significant in predicting the demand for shared bikes.
+   2. How well those variables describe the bike demands
+- The project models the demand for shared bikes with the available independent variables to be used by the management to understand how exactly the demands vary with different features.
+- Based on various meteorological surveys and people's styles, the service provider firm has gathered a large dataset on daily bike demands across the American market based on some factors. 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
@@ -32,6 +29,17 @@ To model the demand for shared bikes with the available independent variables is
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
+
+## How to run
+1. Install the libraries:
+   ```bash
+   pip install numpy pandas matplotlib seaborn scikit-learn statsmodels
+   ```
+2. Get the data: day.csv (daily bike demand data provided with the upGrad assignment; place it next to the notebook).
+3. Open and run the notebook:
+   ```bash
+   jupyter notebook "Bike Sharing Assignment.ipynb"
+   ```
 
 ## Technologies Used
 - Numpy
@@ -44,7 +52,6 @@ To model the demand for shared bikes with the available independent variables is
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
 - This project was based on [Bike-Sharing Assignment](https://learn.upgrad.com/course/5797/segment/48191/284656/866122/4332138).
 
 
